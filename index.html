@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="de" id="top">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Charlotte — AI Draft → Human Copy (DACH)</title>
+  <meta name="description" content="AI-Entwurf rein, menschliche Copy raus: Ich verwandle KI-Entwürfe in glaubwürdige, lebendige, markenkonforme Sprache – schnell, sauber, high-end." />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Charlotte — AI Draft → Human Copy (DACH)" />
+  <meta property="og:description" content="High-End Text-Humanizing: KI-Entwürfe werden zu menschlicher, markenkonformer Sprache. 24–48h typische Turnaround-Zeit." />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:locale:alternate" content="en_US" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Crect width='64' height='64' rx='16' fill='%230b0b10'/%3E%3Ctext x='50%25' y='57%25' text-anchor='middle' font-size='34'%3E%F0%9F%96%8B%EF%B8%8F%3C/text%3E%3C/svg%3E" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="app.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Zum Inhalt springen</a>
+
+  <header class="nav" role="banner" aria-label="Hauptnavigation">
+    <div class="nav-inner">
+      <a class="brand" href="#top" aria-label="Charlotte — AI Draft → Human Copy">
+        <span class="mark" aria-hidden="true"></span>
+        <span class="brand-text">
+          <strong data-i18n="brand.title">Text Humanizing Studio</strong>
+          <span data-i18n="brand.tag">AI-Entwürfe → Sprache, die nach Mensch klingt.</span>
+        </span>
+      </a>
+
+      <nav class="navlinks" aria-label="Sektionen">
+        <a href="#leistung" data-i18n="nav.services">Leistung</a>
+        <a href="#prozess" data-i18n="nav.process">Prozess</a>
+        <a href="#pakete" data-i18n="nav.pricing">Pakete</a>
+        <a href="#faq" data-i18n="nav.faq">FAQ</a>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="lang-toggle" aria-label="Language toggle">
+          <button type="button" class="lang-btn" data-lang="de" aria-pressed="true">DE</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+
+        <a class="btn primary" href="#kontakt" data-i18n="nav.cta">Kostenloses Mini-Audit</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="wrap" tabindex="-1">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="pill" aria-label="Service tags">
+        <span class="dot" aria-hidden="true"></span>
+        <span data-i18n="hero.pill">High-End AI-Humanisierung · Copyediting · Brand Voice</span>
+      </div>
+
+      <div class="grid hero-grid">
+        <div class="hero-left">
+          <h1 id="hero-title" data-i18n-html="hero.titleHtml">
+            Mach aus KI-Texten <span class="grad">glaubwürdige, lebendige Sprache.</span>
+          </h1>
+
+          <p class="lead" data-i18n="hero.lead">
+            Du nutzt KI für schnelle Entwürfe – aber der Text wirkt glatt, austauschbar oder „zu AI“?
+            Ich überarbeite deine Inhalte so, dass sie menschlich klingen, markenkonform sind und konvertieren – ohne den künstlichen Nachgeschmack.
+          </p>
+
+          <div class="hero-cta" role="group" aria-label="Primary actions">
+            <a class="btn primary" href="#kontakt" data-i18n="hero.cta1">Text schicken & Angebot bekommen</a>
+            <a class="btn" href="#beispiele" data-i18n="hero.cta2">Vorher/Nachher ansehen</a>
+            <a class="btn ghost" href="#pakete" data-i18n="hero.cta3">Preise</a>
+          </div>
+
+          <div class="kpis" aria-label="Leistungsversprechen">
+            <div class="kpi"><b data-i18n="hero.kpi1b">24–48h</b> <span data-i18n="hero.kpi1">typische Turnaround-Zeit</span></div>
+            <div class="kpi"><b data-i18n="hero.kpi2b">Brand Voice</b> <span data-i18n="hero.kpi2">statt Standard-Glätte</span></div>
+            <div class="kpi"><b data-i18n="hero.kpi3b">De-AI</b> <span data-i18n="hero.kpi3">Rhythmus, Subtext, Dichte</span></div>
+            <div class="kpi"><b data-i18n="hero.kpi4b">DE/EN</b> <span data-i18n="hero.kpi4">möglich</span></div>
+          </div>
+        </div>
+
+        <!-- MINI AUDIT CARD -->
+        <aside class="card float" aria-label="Schnellanfrage">
+          <div class="inner">
+            <h2 class="card-title" data-i18n="audit.title">Mini-Audit (kostenlos)</h2>
+            <p class="muted" data-i18n="audit.text">
+              Schick mir 300–600 Wörter. Du bekommst kurzes Feedback + 1 Beispiel-Absatz „humanisiert“ zurück.
+            </p>
+          </div>
+
+          <div class="form" id="kontakt">
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="field">
+                  <label for="name" data-i18n="form.name">Name</label>
+                  <input id="name" name="name" autocomplete="name" required
+                    data-i18n-placeholder="form.namePh" placeholder="Vorname Nachname" />
+                  <p class="hint" data-i18n="form.req">Pflichtfeld</p>
+                </div>
+
+                <div class="field">
+                  <label for="email" data-i18n="form.email">E-Mail</label>
+                  <input id="email" name="email" type="email" autocomplete="email" required
+                    data-i18n-placeholder="form.emailPh" placeholder="name@domain.de" />
+                  <p class="hint" data-i18n="form.req">Pflichtfeld</p>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="website" data-i18n="form.website">Website URL</label>
+                <input id="website" name="website" type="url" inputmode="url" autocomplete="url"
+                  data-i18n-placeholder="form.websitePh" placeholder="https://…" />
+                <p class="hint" data-i18n="form.opt">Optional</p>
+              </div>
+
+              <div class="field">
+                <label for="message" data-i18n="form.message">Kurztext / Link / Kontext</label>
+                <textarea id="message" name="message" rows="6" required
+                  data-i18n-placeholder="form.messagePh"
+                  placeholder="Worum geht’s? Zielgruppe, Tonalität, gewünschter Stil (z.B. klar, edgy, poetisch, seriös)…"></textarea>
+                <p class="hint" data-i18n="form.req">Pflichtfeld</p>
+              </div>
+
+              <div class="form-actions">
+                <button class="btn primary" type="submit" data-i18n="form.submit">Mini-Audit anfragen</button>
+                <a class="btn" href="#" id="emailFallbackBtn" data-i18n="form.altEmail">Oder per E-Mail</a>
+              </div>
+
+              <p class="fineprint muted tiny" data-i18n="form.note">
+                Kein Backend: Beim Absenden öffnet sich dein E-Mail-Programm mit vorausgefüllter Nachricht (mailto:).
+              </p>
+
+              <p class="sr-only" id="contact-email">Email: slottesin@gmail.com</p>
+            </form>
+          </div>
+
+          <div class="quote">
+            <blockquote data-i18n="audit.quote">
+              „Der Text klingt jetzt wie unsere Marke – nicht wie ein generischer KI-Output. Und die Landingpage-Conversion ist spürbar hochgegangen.“
+            </blockquote>
+            <div class="who" data-i18n="audit.who">— Kund*in, DTC Brand (Testimonial-Beispiel)</div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="leistung" aria-labelledby="services-title">
+      <div class="section-title">
+        <div>
+          <h2 id="services-title" data-i18n="services.title">Was genau ist „AI-Humanisierung“?</h2>
+          <p data-i18n="services.subtitle">
+            Kein oberflächliches Umschreiben. Sondern Copyediting auf Profi-Level: Rhythmus, Logik, Ton, Subtext, Relevanz – und der letzte Schliff, der nach Mensch riecht.
+          </p>
+        </div>
+      </div>
+
+      <div class="three">
+        <article class="card">
+          <div class="inner">
+            <div class="icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M8 7h8M8 11h8M8 15h5" stroke="white" stroke-opacity=".9" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M7 3h10a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3Z" stroke="white" stroke-opacity=".35" stroke-width="1.6"/>
+              </svg>
+            </div>
+            <h3 data-i18n="services.c1t">De-AI & Stil</h3>
+            <p data-i18n="services.c1p">Ich entferne typische KI-Muster (Floskeln, monotone Satzmelodie) und gebe dem Text echte Stimme.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="inner">
+            <div class="icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 3l3 6 6 .8-4.4 4.3 1 6-5.6-3-5.6 3 1-6L3 9.8 9 9l3-6Z" stroke="white" stroke-opacity=".85" stroke-width="1.6"/>
+              </svg>
+            </div>
+            <h3 data-i18n="services.c2t">Brand Voice</h3>
+            <p data-i18n="services.c2p">Ton trifft Zielgruppe: seriös, edgy, warm, poetisch – aber immer konsistent. Optional: Voice-Card.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="inner">
+            <div class="icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 12h16" stroke="white" stroke-opacity=".8" stroke-width="1.6" stroke-linecap="round"/>
+                <path d="M8 8h8M8 16h8" stroke="white" stroke-opacity=".55" stroke-width="1.6" stroke-linecap="round"/>
+                <path d="M6 4h12a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3Z" stroke="white" stroke-opacity=".35" stroke-width="1.6"/>
+              </svg>
+            </div>
+            <h3 data-i18n="services.c3t">Struktur & Conversion</h3>
+            <p data-i18n="services.c3p">Ich schärfe Argumentation, Reihenfolge, Headlines und CTA-Logik – damit Text nicht nur schön ist, sondern wirkt.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- BEFORE/AFTER -->
+    <section id="beispiele" aria-labelledby="examples-title">
+      <div class="section-title">
+        <div>
+          <h2 id="examples-title" data-i18n="examples.title">Vorher/Nachher – typische Verbesserungen</h2>
+          <p data-i18n="examples.subtitle">
+            Beispieltexte sind bewusst kurz. Du bekommst auf Wunsch ein echtes Vorher/Nachher an deinem Text (Mini-Audit).
+          </p>
+        </div>
+      </div>
+
+      <div class="compare">
+        <article class="card">
+          <div class="inner">
+            <h3 class="mb10" data-i18n="examples.beforeTitle">Vorher (KI-typisch)</h3>
+            <ul class="list">
+              <li class="li">
+                <div class="tag" aria-hidden="true">…</div>
+                <div><b data-i18n="examples.b1t">„In der heutigen schnelllebigen Welt…“</b><span data-i18n="examples.b1p">Generische Einleitungen, null Kontext, null Profil.</span></div>
+              </li>
+              <li class="li">
+                <div class="tag" aria-hidden="true">…</div>
+                <div><b data-i18n="examples.b2t">„Wir bieten innovative Lösungen…“</b><span data-i18n="examples.b2p">Marketing-Nebel statt konkreter Nutzen/Beweise.</span></div>
+              </li>
+              <li class="li">
+                <div class="tag" aria-hidden="true">…</div>
+                <div><b data-i18n="examples.b3t">Monotone Satzmelodie</b><span data-i18n="examples.b3p">Gleich lange Sätze, keine Pausen, kein Rhythmus.</span></div>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="inner">
+            <h3 class="mb10" data-i18n="examples.afterTitle">Nachher (humanisiert)</h3>
+            <ul class="list">
+              <li class="li">
+                <div class="tag ok" aria-hidden="true">✓</div>
+                <div><b data-i18n="examples.a1t">Konkreter Einstieg</b><span data-i18n="examples.a1p">Problem + Zielgruppe + messbarer Nutzen in 2–3 Sätzen.</span></div>
+              </li>
+              <li class="li">
+                <div class="tag ok" aria-hidden="true">✓</div>
+                <div><b data-i18n="examples.a2t">Beweis & Präzision</b><span data-i18n="examples.a2p">Features werden in Resultate übersetzt – mit echten Details.</span></div>
+              </li>
+              <li class="li">
+                <div class="tag ok" aria-hidden="true">✓</div>
+                <div><b data-i18n="examples.a3t">Rhythmus & Stimme</b><span data-i18n="examples.a3p">Varianz, Pointen, Subtext – ohne künstliche „AI“-Signatur.</span></div>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section id="prozess" aria-labelledby="process-title">
+      <div class="section-title">
+        <div>
+          <h2 id="process-title" data-i18n="process.title">Prozess</h2>
+          <p data-i18n="process.subtitle">Minimaler Aufwand für dich. Klare Übergaben. Saubere Versionierung.</p>
+        </div>
+      </div>
+
+      <div class="three">
+        <article class="card"><div class="inner">
+          <h3 data-i18n="process.s1t">1) Input</h3>
+          <p data-i18n="process.s1p">Du schickst Text/Link + Kontext (Ziel, Zielgruppe, Ton). Optional: Beispiele deiner Kommunikation.</p>
+        </div></article>
+
+        <article class="card"><div class="inner">
+          <h3 data-i18n="process.s2t">2) Humanize & Optimize</h3>
+          <p data-i18n="process.s2p">Ich überarbeite Stil, Struktur, Logik, Dichte – und entferne KI-typische Muster. Optional: SEO/UX-Copy.</p>
+        </div></article>
+
+        <article class="card"><div class="inner">
+          <h3 data-i18n="process.s3t">3) Lieferung</h3>
+          <p data-i18n="process.s3p">Du bekommst eine finale Version + (wenn sinnvoll) Alternativen. Format: Google Doc, Word oder Markdown.</p>
+        </div></article>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pakete" aria-labelledby="pricing-title">
+      <div class="section-title">
+        <div>
+          <h2 id="pricing-title" data-i18n="pricing.title">Pakete</h2>
+          <p data-i18n="pricing.subtitle">Richtwerte. Exakter Fixpreis hängt von Umfang/Deadline ab – ich antworte schnell mit einem Angebot.</p>
+        </div>
+      </div>
+
+      <div class="pricing">
+        <article class="price">
+          <h3 data-i18n="pricing.p1t">Quick Polish</h3>
+          <p data-i18n="pricing.p1p">Für kurze Texte, Newsletter, Social Captions, Blog-Abschnitte.</p>
+          <div class="amount"><span data-i18n="pricing.p1a">ab 79€</span> <small data-i18n="pricing.p1s">/ bis ~600 Wörter</small></div>
+          <ul>
+            <li><span class="check" aria-hidden="true">✓</span><span data-i18n="pricing.p1l1">De-AI Stil & Rhythmus</span></li>
+            <li><span class="check" aria-hidden="true">✓</span><span data-i18n="pricing.p1l2">Klarheit & Kürzen</span></li>
+            <li><span class="check" aria-hidden="true">✓</span><span data-i18n="pricing.p1l3">1 Runde Korrekturen</span></li>
+          </ul>
+          <a class="btn" href="#kontakt" data-i18n="pricing.ask">Anfragen</a>
+        </article>
+
+        <article class="price popular">
+          <div class="badge" data-i18n="pricing.pop">Beliebt</div>
+          <h3 data-i18n="pricing.p2t">Landingpage Upgrade</h3>
+          <p data-i18n="pricing.p2p">Für Sales/Service Landingpages, About-Seiten, Angebotsseiten.</p>
+          <div class="amount"><span data-i18n="pricing.p2a">ab 249€</span> <small data-i18n="pricing.p2s">/ 1 Seite</small></div>
+          <ul>
+            <li><span class="check" aria-hidden="true">✓</span><span data-i18n="pricing.p2l1">Headline-Varianten + CTA</span></li>
+            <li><span class="check" aria-hidden="true">✓</span><span data-i18n="pricing.p2l2">Struktur & Argumentation</span></li>
+            <li><span class="check" aria-hidden="true">✓</span><span data-i18n="pricing.p2l3">Brand-Voice Feinabstimmung</span></li>
+            <li><span class="check" aria-hidden="true">✓</span><span data-i18n="pricing.p2l4">2 Runden Korrekturen</span></li>
+          </ul>
+          <a class="btn primary" href="#kontakt" data-i18n="pricing.start">Jetzt starten</a>
+        </article>
+
+        <article class="price">
+          <h3 data-i18n="pricing.p3t">Voice System</h3>
+          <p data-i18n="pricing.p3p">Für Creator/Teams: konsistente Stimme über alle Kanäle.</p>
+          <div class="amount"><span data-i18n="pricing.p3a">ab 490€</span> <small data-i18n="pricing.p3s">/ Setup</small></div>
+          <ul>
+            <li><span class="check" aria-hidden="true">✓</span><span data-i18n="pricing.p3l1">Mini Brand-Voice Guide</span></li>
+            <li><span class="check" aria-hidden="true">✓</span><span data-i18n="pricing.p3l2">Beispiel-Texte + Do/Don’t</span></li>
+            <li><span class="check" aria-hidden="true">✓</span><span data-i18n="pricing.p3l3">Prompt-Snippets & Checkliste</span></li>
+            <li><span class="check" aria-hidden="true">✓</span><span data-i18n="pricing.p3l4">Feedback-Call (30 min)</span></li>
+          </ul>
+          <a class="btn" href="#kontakt" data-i18n="pricing.call">Call anfragen</a>
+        </article>
+      </div>
+
+      <p class="addons muted" data-i18n="pricing.addons">
+        <b>Add-ons:</b> Express, SEO-Optimierung, Tonalitäts-Varianten, Longform, EN Übersetzung + Humanizing.
+      </p>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" aria-labelledby="faq-title">
+      <div class="section-title">
+        <div>
+          <h2 id="faq-title" data-i18n="faq.title">FAQ</h2>
+          <p data-i18n="faq.subtitle">Die häufigsten Fragen – klar beantwortet.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="inner">
+          <details>
+            <summary data-i18n="faq.q1">Ist das einfach „Umschreiben“?</summary>
+            <p data-i18n="faq.a1">Nein. Humanisierung ist Copyediting: Logik, Struktur, Ton, Rhythmus, Präzision, Subtext. Ergebnis: glaubwürdig statt „ poliert“.</p>
+          </details>
+          <details>
+            <summary data-i18n="faq.q2">Kannst du meinen Stil exakt treffen?</summary>
+            <p data-i18n="faq.a2">Ja – ein bis zwei Beispiele reichen oft. Für langfristige Konsistenz empfehle ich das „Voice System“.</p>
+          </details>
+          <details>
+            <summary data-i18n="faq.q3">Arbeitest du vertraulich?</summary>
+            <p data-i18n="faq.a3">Ja. Auf Wunsch NDA. Standard: keine Nutzung deiner Texte als Beispiele ohne explizites OK.</p>
+          </details>
+          <details>
+            <summary data-i18n="faq.q4">Welche Formate?</summary>
+            <p data-i18n="faq.a4">Google Docs, Word, Notion, Markdown. Sag einfach, was du nutzt.</p>
+          </details>
+          <details>
+            <summary data-i18n="faq.q5">Wie schnell geht das?</summary>
+            <p data-i18n="faq.a5">Kurze Texte oft 24–48h. Express möglich abhängig von Umfang und Kalender. Sag deine Deadline – ich antworte mit Slot.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="card">
+        <div class="inner cta-inner">
+          <div>
+            <h2 class="cta-title" data-i18n="cta.title">Bereit für Text, der nach dir klingt?</h2>
+            <p class="muted" data-i18n="cta.text">Schick mir deinen Entwurf. Du bekommst schnell ein klares Angebot – ohne Ping-Pong.</p>
+            <p class="muted tiny" data-i18n="cta.emailLine">
+              E-Mail-Ziel: <span class="mono">slottesin@gmail.com</span>
+            </p>
+          </div>
+          <div class="cta-actions" role="group" aria-label="Call to action">
+            <a class="btn primary" href="#kontakt" data-i18n="cta.btn1">Mini-Audit anfragen</a>
+            <a class="btn" href="#kontakt" data-i18n="cta.btn2">Per E-Mail starten</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" role="contentinfo">
+      <p class="muted tiny">
+        <span data-i18n="footer.copy">©</span> <span id="year"></span> <span data-i18n="footer.name">Charlotte — Text Humanizing Studio</span>
+      </p>
+      <nav class="tiny-links" aria-label="Footer Links">
+        <a href="#impressum-modal" data-i18n="footer.impressum">Impressum</a>
+        <a href="#datenschutz-modal" data-i18n="footer.privacy">Datenschutz</a>
+      </nav>
+    </footer>
+  </main>
+
+  <!-- MODALS -->
+  <section id="impressum-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="impressum-title">
+    <a class="modal-backdrop" href="#top" aria-label="Close"></a>
+    <div class="modal-panel" role="document">
+      <div class="modal-head">
+        <h2 id="impressum-title" data-i18n="modal.impressum.title">Impressum</h2>
+        <a class="icon-btn" href="#top" aria-label="Close">✕</a>
+      </div>
+      <div class="modal-body">
+        <div data-i18n-html="modal.impressum.body">
+          <p><strong>Platzhalter-Text</strong></p>
+          <p>Angaben gemäß § 5 TMG (Beispiel): Name, Anschrift, Kontakt.</p>
+          <p>Bitte ersetze diesen Text durch dein echtes Impressum.</p>
+        </div>
+      </div>
+      <div class="modal-foot">
+        <a class="btn" href="#top" data-i18n="modal.close">Schließen</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="datenschutz-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="privacy-title">
+    <a class="modal-backdrop" href="#top" aria-label="Close"></a>
+    <div class="modal-panel" role="document">
+      <div class="modal-head">
+        <h2 id="privacy-title" data-i18n="modal.privacy.title">Datenschutz</h2>
+        <a class="icon-btn" href="#top" aria-label="Close">✕</a>
+      </div>
+      <div class="modal-body">
+        <div data-i18n-html="modal.privacy.body">
+          <p><strong>Platzhalter-Text</strong></p>
+          <p>Diese Seite nutzt kein Tracking. Beim Kontaktformular wird eine E-Mail über dein Mail-Programm erstellt (mailto:).</p>
+          <p>Bitte ersetze diesen Text durch deine echte Datenschutzerklärung.</p>
+        </div>
+      </div>
+      <div class="modal-foot">
+        <a class="btn" href="#top" data-i18n="modal.close">Schließen</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
